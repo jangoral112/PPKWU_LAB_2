@@ -11,13 +11,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class StringStatisticsResponse {
 
-    private Integer uppercaseLetters;
+    private Long uppercaseLetters;
 
-    private Integer lowercaseLetters;
+    private Long lowercaseLetters;
 
-    private Integer digits;
+    private Long digits;
 
-    private Integer specialCharacters;
+    private Long specialCharacters;
 
-    private Integer combinationHits;
+    private Long combinationHits;
 }

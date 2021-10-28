@@ -20,10 +20,10 @@ Content-Type: application/json
 **Sample Response body for status *OK* *200*:**
 ```
 {
-    "uppercase_letters": Integer,
-    "lowercase_letters": Integer,
-    "digits": Integer,
-    "special_characters": Integer,
-    "combination_hits": Integer,
+    "uppercase_letters": Long,
+    "lowercase_letters": Long,
+    "digits": Long,
+    "special_characters": Long,
+    "combination_hits": Long,
 }
 ```
