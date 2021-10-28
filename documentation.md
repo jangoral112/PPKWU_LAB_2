@@ -1,6 +1,7 @@
 ## API
 
-**Application port**: 8080
+**Application port**: 8080  <br />
+**Protocol**: http
 
 ### String statistics
 **Path**: /statistics <br />
