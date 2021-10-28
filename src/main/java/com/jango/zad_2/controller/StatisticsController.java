@@ -15,7 +15,7 @@ public class StatisticsController {
     @Autowired
     private StatisticsService statisticsService;
 
-    @PostMapping("/statistics}")
+    @PostMapping("/statistics")
     public ResponseEntity<StringStatisticsResponse> stringStatistics(@RequestBody StringStatisticsRequest request) {
         return ResponseEntity.ok(statisticsService.stringStatistics(request));
     }
