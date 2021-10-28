@@ -22,6 +22,7 @@ Content-Type: application/json
 {
     "uppercase_letters": Integer,
     "lowercase_letters": Integer,
+    "digits": Integer,
     "special_characters": Integer,
     "combination_hits": Integer,
 }
